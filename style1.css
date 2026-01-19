@@ -5,14 +5,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body{
     background-color: #f4f6f8;
     color: #333;
     line-height: 1.65;
 }
 
 /* header */
-.header {
+.header{
     background: linear-gradient(135deg, #0d47a1, #1565C0);
     color: white;
     text-align: center;
@@ -23,67 +23,67 @@ body {
     text-align: center;
 }
 
-.logo {
+.logo{
     width: 170px;
     height: 170px;
     object-fit: cover;
     border-radius: 50%;
-    background-color: white;
+    background-color:white;
     padding: 8px;
     margin-bottom: 12px;
 }
 
-.header h1 {
+.header h1{
     font-size: 38px;
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
 
-.header p {
+.header p{
     font-size: 16px;
     opacity: 0.95;
 }
 
 /* nav */
-.nav {
-    background-color: #0d47a1;
+.nav{
+    background-color:#0d47a1;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-.nav ul {
+.nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-.nav ul li a {
+.nav ul li a{
     display: block;
     padding: 15px 24px;
-    color: white;
+    color:white;
     text-decoration: none;
     font-weight: bold;
     transition: all 0.25s ease;
 }
 
-.nav ul li a.mark {
-    background-color: #1976d2;
+.nav ul li a.mark{
+    background-color:#1976d2;
 }
 
-.nav ul li a:hover {
-    background-color: #1976d2;
+.nav ul li a:hover{
+    background-color:#1976d2;
     transform: translateY(-3px);
 }
 
 /* main */
-.main {
+.main{
     max-width: 1100px;
     margin: 40px auto;
     padding: 0 16px;
 }
 
 /* intro */
-.intro {
-    background-color: #e3f2fd;
+.intro{
+    background-color:#e3f2fd;
     padding: 32px;
     border-radius: 16px;
     margin-bottom: 40px;
@@ -91,13 +91,13 @@ body {
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
-.intro h2 {
-    color: #0d47a1;
+.intro h2{
+    color:#0d47a1;
     margin-bottom: 16px;
     position: relative;
 }
 
-.intro h2::after {
+.intro h2::after{
     content: "";
     width: 60px;
     height: 4px;
@@ -108,19 +108,19 @@ body {
 }
 
 /* layout */
-.layout {
+.layout{
     display: flex;
     flex-direction: column;
 }
 
 /* content */
-.content {
+.content{
     display: flex;
     flex-direction: column;
 }
 
 /* section */
-.section {
+.section{
     background-color: white;
     padding: 30px;
     border-radius: 16px;
@@ -164,36 +164,36 @@ body {
 }
 
 /* card */
-.card {
+.card{
     padding: 22px;
     border-radius: 14px;
     text-align: center;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.card:hover {
+.card:hover{
     transform: translateY(-5px);
     box-shadow: 0 10px 22px rgba(0,0,0,0.15);
 }
 
-.card h3 {
+.card h3{
     margin-bottom: 8px;
 }
 
-.card p {
+.card p{
     font-size: 14px;
     color: #444;
 }
 
-.card.science {
+.card.science{
     background-color: #e3f2fd;
     border-left: 6px solid #1565C0;
 }
-.card.science h3 { 
+.card.science h3{ 
     color: #1565C0; 
 }
 
-.card.technology {
+.card.technology{
     background-color: #e8f5e9;
     border-left: 6px solid #2E7D32;
 }
